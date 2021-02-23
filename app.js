@@ -1,3 +1,16 @@
-var cat = require("cat-me");
+import './App.css';
+import Button from './components/Button';
+import Search from './components/Search';
 
-console.log(cat());
+function App() {
+  return (
+    <div className="App">
+      <Button/>
+      <br/>
+      <br/>
+      <Search />
+    </div>
+  );
+}
+
+export default App;
